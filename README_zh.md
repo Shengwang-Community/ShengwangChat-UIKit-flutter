@@ -29,7 +29,6 @@
   - [连接状态变更和登录过期回调](#连接状态变更和登录过期回调)
   - [消息时间格式化](#消息时间格式化)
   - [联系人字母排序纠正](#联系人字母排序纠正)
-- [设计指南](#设计指南)
 
 # 前置开发环境要求
 
@@ -855,12 +854,3 @@ ChatUIKitAlphabetSortHelper.instance.sortHandler = (String showName) {
 };
 ```
 
-
-
-# 设计指南
-
-如果您对设计指南和细节有任何疑问，您可以在 Figma 设计稿中添加评论并提及我们的设计师 Stevie Jiang。
-
-参见[设计图](https://www.figma.com/community/file/1327193019424263350/chat-uikit-for-mobile)。
-
-请参阅[UI设计指南](https://github.com/StevieJiang/Chat-UIkit-Design-Guide/blob/main/README.md)

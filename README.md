@@ -30,7 +30,6 @@ This guide provides an overview and usage examples of the chat_uikit framework i
   - [Connection status change and login token expiration callback](#connection-status-change-and-login-token-expiration-callback)
   - [Message time formatting](#message-time-formatting)
   - [Correction of the alphabetical order of contacts](#correction-of-the-alphabetical-order-of-contacts)
-- [Design guide](#design-guide)
 
 # Development Environment
 
@@ -861,10 +860,3 @@ ChatUIKitAlphabetSortHelper.instance.sortHandler = (String? groupId, String user
 };
 ```
 
-# Design guide
-
-For any questions about design guidelines and details, you can add comments to the Figma design draft and mention our designer Stevie Jiang.
-
-- [Design sketch](https://www.figma.com/community/file/1327193019424263350/chat-uikit-for-mobile)
-
-- [UI design guide](https://github.com/StevieJiang/Chat-UIkit-Design-Guide/blob/main/README.md)
