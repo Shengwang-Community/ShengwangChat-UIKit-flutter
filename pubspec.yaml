@@ -12,8 +12,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-  shengwang_chat_sdk: 
-    path: ../shengwang_chat_sdk/
+  shengwang_chat_sdk: 1.3.2
+    # path: ../shengwang_chat_sdk/
 
   record: 5.1.2
 
