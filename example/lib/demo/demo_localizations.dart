@@ -239,7 +239,7 @@ mixin DemoLocalizations {
     loginResendSms: 'Resend',
     loggingIn: 'Logging in...',
     loginCheck: 'Agree to',
-    loginTermsOfService:'Terms',
+    loginTermsOfService: 'Terms',
     loginAnd: ' & ',
     loginPrivacyPolicy: 'Privacy',
     loginPleaseAgreeTermsOfServicePrivacyPolicy:

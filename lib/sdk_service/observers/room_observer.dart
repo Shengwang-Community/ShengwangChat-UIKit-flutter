@@ -21,8 +21,7 @@ abstract mixin class RoomObserver implements ChatUIKitObserverBase {
   void onMemberJoinedFromChatRoom(
       String roomId, String participant, String? ext) {}
 
-  void onMuteListAddedFromChatRoom(
-      String roomId, Map<String, int> mutes) {}
+  void onMuteListAddedFromChatRoom(String roomId, Map<String, int> mutes) {}
 
   void onMuteListRemovedFromChatRoom(String roomId, List<String> mutes) {}
 
