@@ -17,9 +17,6 @@ import 'package:flutter/services.dart';
 
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 
-// 是否开启调试模式
-const bool appDebug = false;
-
 // 主函数：初始化设置并启动应用
 void main() async {
   SettingsDataStore().init();
