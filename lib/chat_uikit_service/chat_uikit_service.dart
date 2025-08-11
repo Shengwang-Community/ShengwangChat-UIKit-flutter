@@ -40,11 +40,6 @@ class ChatUIKit extends ChatSDKService
 
   @override
   Future<void> init({required Options options}) async {
-    assert(
-      (options.appId != null && options.appId!.isNotEmpty) ||
-          (options.appKey != null && options.appKey!.isNotEmpty),
-      'AppId and AppKey cannot both be empty. Please provide at least one valid value.',
-    );
     _options = options;
     await super.init(options: options);
     ChatUIKitContext.instance.currentUserId = currentUserId;
