@@ -1,3 +1,6 @@
+## 2.0.1
+- Fix error of video_player_android:compileDebugJavaWithJavac
+
 ## 2.0.0
 
 #### New features
